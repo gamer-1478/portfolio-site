@@ -131,6 +131,7 @@ a.nav-links:hover:before {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: -15px;
 }
 
 .herosection-main {
@@ -145,6 +146,10 @@ a.nav-links:hover:before {
     align-items: center;
     padding-top: 30px;
     width: 60%;
+}
+
+.social-container img {
+    cursor: pointer;
 }
 
 @media screen and (max-width: 960px) {
