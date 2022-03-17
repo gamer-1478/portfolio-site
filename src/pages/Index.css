@@ -152,7 +152,18 @@ a.nav-links:hover:before {
     cursor: pointer;
 }
 
+.phone-img-land {
+    display: none;
+}
+
 @media screen and (max-width: 960px) {
+    .phone-img-land {
+        display: block;
+    }
+
+    .lappy-img-land {
+        display: none;
+    }
     .herosection-container {
         display: flex;
         justify-content: center;

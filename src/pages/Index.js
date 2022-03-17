@@ -40,6 +40,7 @@ function Index() {
     return (
         <>
             <div style={{ minHeight: '100vh' }}>
+                
                 <div>
                     <nav className="navbar">
                         <div className="navbar-container">
@@ -75,6 +76,8 @@ function Index() {
                 </div>
                 <div style={{ minHeight: 'calc(100vh - 80px)' }} className='herosection-main'>
                     <div className='herosection-container'>
+                        <img style={{ width: '500px' }} className='phone-img-land' alt='gr9' src='https://cdn.discordapp.com/attachments/840934970548813854/953644242750832690/Group_9.png'></img>
+
                         <div className='herosection-content'>
                             <div className='namaste'>
                                 <h4 style={{ opacity: '80%', position: 'absolute', fontSize: '3rem', fontWeight: '400' }}>namaste.</h4>
@@ -90,7 +93,7 @@ function Index() {
                                 <img style={{ width: '35px' }} alt='Strava Logo' onClick={() => openNewTab(strava)} src='https://cdn-images-1.medium.com/max/1200/1*fnPVSaFGoh-NO_IPFrSoaQ.png' />
                             </div>
                         </div>
-                        <img style={{ width: '500px' }} alt='gr9' src='https://cdn.discordapp.com/attachments/840934970548813854/953644242750832690/Group_9.png'></img>
+                        <img style={{ width: '500px' }} className='lappy-img-land' alt='gr9' src='https://cdn.discordapp.com/attachments/840934970548813854/953644242750832690/Group_9.png'></img>
                     </div>
                 </div>
             </div>
