@@ -5,48 +5,6 @@ const openInNewTab = (url) => {
   if (newWindow) newWindow.opener = null
 }
 
-function DetailButton(props) {
-
-  if (typeof (props.path) != 'undefined' && props.path.length > 0) {
-    return (
-      <button onClick={() => { openInNewTab(props.path) }}>
-        Details
-      </button>
-    );
-  }
-  else {
-    return (<></>)
-  }
-}
-
-function DeployButton(props) {
-
-  if (typeof (props.path) != 'undefined' && props.path.length > 0) {
-    return (
-      <button onClick={() => { openInNewTab(props.path) }}>
-        Deployed Project
-      </button>
-    );
-  }
-  else {
-    return (<></>)
-  }
-}
-
-function SourceButton(props) {
-
-  if (typeof (props.path) != 'undefined' && props.path.length > 0) {
-    return (
-      <button onClick={() => { openInNewTab(props.path) }}>
-        Source Code
-      </button>
-    );
-  }
-  else {
-    return (<></>)
-  }
-}
-
 function CardItem(props) {
   return (
     <>
@@ -61,12 +19,9 @@ function CardItem(props) {
             />
           </figure>
           <div className='cards__item__info'>
+            <h1>{props.title}</h1>
             <h5 className='cards__item__text'>{props.text}</h5>
-            <div className='cards__item__info__button'>
-              <DeployButton path={props.deploy} />
-              <SourceButton path={props.source} />
-              <DetailButton path={props.path} />
-            </div>
+            <h5 className='card__item_redirect' onClick={()=>{openInNewTab(props.link)}}>Check It Out On {props.check_on}!</h5>
           </div>
         </div>
       </li>

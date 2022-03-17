@@ -4,11 +4,6 @@ Author Gamer-1478
 */
 
 .project-root {
-    background-image: url(https://cdn.discordapp.com/attachments/840934970548813854/953951321797578772/Path_9.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-size: 100% -60%;
-    background-position: -40px 0px;
     background-color: #DBEEF8;
     align-items: center;
     min-height: 100vh;
@@ -72,6 +67,23 @@ Author Gamer-1478
     width: 80vw;
     opacity: 0;
     transition: all 2s;
+}
+
+.back-to-top {
+    transition: all 1s;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    cursor: pointer;
+}
+
+.font-arrow {
+    font-size: 2rem;
+    visibility: visible;
+}
+
+.back-to-top:hover {
+    margin-top: -2rem;
+    margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 960px) {

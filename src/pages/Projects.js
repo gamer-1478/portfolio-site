@@ -21,10 +21,21 @@ function Projects() {
                             <span className='circle-project'></span>
                         </div>
                         <Cards />
+                        <div onClick={() => {
+                            window.scrollTo({
+                                top: 0,
+                                behavior: "smooth"
+                            });
+                        }} className='back-to-top' style={{ textAlign: 'center' }}>
+                            <div className='font-arrow'>
+                                <i class="fa-solid fa-caret-up"></i>
+                            </div>
+                            <h2>~Keeping it short and simple~<br></br>Back to the top</h2>
+                        </div>
                     </div>
                 </div>
             </div >
-        </div>
+        </div >
     )
 }
 

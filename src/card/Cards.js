@@ -44,17 +44,17 @@ function Cards() {
         <div className='cards__container'>
             {isLoaded ? Array.from(shows).map((el, ind) => {
                 return (
-                    <ul key={ind} className="cards__items">{
+                    <ul className="cards__items">{
                         Array.from(el).map((el2, inc) => {
                             return (
                                 <Carditem
-                                    key={inc}
                                     img_src={el2.img_src}
                                     text={el2.text}
                                     label={el2.label}
-                                    path={el2.path}
-                                    source={el2.source}
-                                    deploy={el2.deploy} />
+                                    title={el2.title}
+                                    link = {el2.link}
+                                    check_on = {el2.check_on}
+                                />
                             )
                         })
                     }
