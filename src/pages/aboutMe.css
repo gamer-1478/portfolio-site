@@ -48,7 +48,7 @@ Author Gamer-1478
     background-color: #2B1D6D;
 }
 
-.line-effect {
+.line-effect-about {
     display: flex;
     align-items: center;
     margin-left: 12rem;
@@ -83,7 +83,7 @@ Author Gamer-1478
         background-image: none;
     }
 
-    .line-effect {
+    .line-effect-about {
         margin-left: 14rem;
     }
 

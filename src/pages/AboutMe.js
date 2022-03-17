@@ -27,7 +27,7 @@ function AboutMe() {
       <div className='ohk-root'>
         <div id='aboutme-container' className='aboutme-container'>
           <p className='aboutme-connect-dots' style={{ fontSize: '1.3rem', color: '#2B1D6D' }}>Connecting the dots</p>
-          <div className='line-effect'>
+          <div className='line-effect-about'>
             <span id='line-about' className='line-about'></span>
             <span className='circle-about'></span>
           </div>
