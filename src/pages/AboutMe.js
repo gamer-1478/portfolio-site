@@ -2,14 +2,27 @@ import React from 'react';
 import './aboutMe.css';
 
 function AboutMe() {
+
+  window.onscroll = function () { show() };
+
+  function show() {
+    if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+      document.getElementById("aboutme-container").style.opacity = 1;
+      document.getElementById('aboutme-img-carasol').style.opacity = 1;
+      document.getElementById('line-about').style.width = '20vw';
+    }
+  }
+
   return (
     <div id='aboutme' className='Aboutme-root'>
-      <div className='ohk-root' style={{ width: '80vw', display: 'flex' }}>
-        <div className='aboutme-container'>
-          <h1 className='aboutme-header'>About me</h1>
+      <div>
+        <h1 className='aboutme-header'>About me</h1>
+      </div>
+      <div className='ohk-root'>
+        <div id='aboutme-container' className='aboutme-container'>
           <p className='aboutme-connect-dots' style={{ fontSize: '1.3rem', color: '#2B1D6D' }}>Connecting the dots</p>
           <div className='line-effect'>
-            <span className='line-about'></span>
+            <span id='line-about' className='line-about'></span>
             <span className='circle-about'></span>
           </div>
           <h2 style={{ padding: '1vw 0vw 1vw 0vw', fontSize: '2.5rem', fontWeight: '300' }}>Hi there!</h2>
@@ -35,8 +48,8 @@ function AboutMe() {
               watch movies and web-series and talk to people! </p>
           </div>
         </div>
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent:'center', flexDirection: 'column' }} className='aboutme-img-carasol'>
-          <img style={{marginTop:'20px', height: '600px' }} alt='img' src='https://cdn.discordapp.com/attachments/840934970548813854/953882671245840414/Group_10.png' />
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }} id='aboutme-img-carasol' className='aboutme-img-carasol'>
+          <img style={{ marginTop: '20px', height: '600px' }} alt='img' src='https://cdn.discordapp.com/attachments/840934970548813854/953882671245840414/Group_10.png' />
         </div>
       </div>
     </div >
