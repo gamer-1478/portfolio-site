@@ -70,8 +70,11 @@
 }
 
 @media screen and (max-width: 960px) {
+    .about-main-content {
+        width: 80vw;
+    }
     .Aboutme-root {
-        background-size: 220% 30%;
+        background-image: none;
     }
 
     .line-effect {
