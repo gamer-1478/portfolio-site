@@ -54,9 +54,14 @@
 }
 
 @media screen and (max-width: 960px) {
+    .Aboutme-root {
+        background-size: 220% 30%;
+    }
+
     .line-effect {
         margin-left: 14rem;
     }
+
     .ohk-root {
         flex-direction: column;
     }
