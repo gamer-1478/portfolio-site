@@ -65,7 +65,7 @@
 .aboutme-container, .aboutme-img-carasol {
     width: 80vw;
     opacity: 0;
-    transition: all 5s;
+    transition: all 2s;
 }
 
 @media screen and (max-width: 960px) {
