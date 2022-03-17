@@ -27,7 +27,7 @@ function Footer() {
                         </Link>
                     </div>
                     <small style={{display:'flex'}} className='website-rights'>Developed With 💖 By &nbsp;<div style={{ cursor: 'pointer', bottom: '0' }} onClick={() => openNewTab('https://aayushgarg.net')}>Aayush Garg</div></small>
-                    <div style={{ marginLeft: '-35px' }} className='social-icons'>
+                    <div style={{ marginLeft: '-35px', cursor:'pointer' }} className='social-icons'>
                         <img style={{ width: '35px' }} alt='LinkedIn Logo' onClick={() => openNewTab(linkedin)} src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/2048px-LinkedIn_icon_circle.svg.png' />
                         <img style={{ width: '35px' }} alt='Twitter Logo' onClick={() => openNewTab(twitter)} src='https://cdn.discordapp.com/attachments/840934970548813854/953865397797539860/twitter.png' />
                         <img style={{ width: '35px' }} alt='Youtube Logo' onClick={() => openNewTab(youtube)} src='https://cdn.discordapp.com/attachments/840934970548813854/953865398464430080/movie.png' />

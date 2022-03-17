@@ -18,6 +18,10 @@ function AboutMe() {
       document.getElementById('line-project').style.width = '20vw';
     }
   }
+  const openNewTab = (url) => {
+    window.open(url, '_blank');
+  }
+
 
   return (
     <div id='aboutme' className='Aboutme-root'>
@@ -36,19 +40,19 @@ function AboutMe() {
             <p>I am Anirudh Chaturvedi, a high school senior and the Vice Head Boy
               at Amity International school sector-46.</p><br></br>
 
-            <p>I've always been very passionate to explore different fields and take
+            <p >I've always been very passionate to explore different fields and take
               up various co-curricular activities other than academics. I love doing
               video editing, especially motion graphics and graphic designing as a
-              passion. I am also a core-member of Tech Syndicate, the technology
-              organization and the secretary of Cyber Congress of my school.</p><br></br>
+              passion. I am also a core-member of <a style={{ cursor: 'pointer' }} onClick={() => { openNewTab('https://techsyndicate.club/') }}>Tech Syndicate</a>, the technology
+              organization and the secretary of <a style={{ cursor: 'pointer' }} onClick={() => { openNewTab('https://cybercongressais46.herokuapp.com/') }}>Cyber Congress</a> of my school.</p><br></br>
 
             <p>Being a fitness enthusiast I actively take up long distance cycling and
-              running. Check out my strava profile for more and follow:)</p><br></br>
+              running. Check out my <a style={{ cursor: 'pointer' }} onClick={() => { openNewTab('https://www.strava.com/athletes/80762754') }}>strava profile</a> for more and follow:)</p><br></br>
 
             <p>Music has always been an inseparable part of my life, I am a guitarist
               and currently pursuing music studies from Trinity college London.
               Fun fact I'm also a melomaniac, my taste in music ranges from
-              pop rock to blues to jazz to country music. I am a huge fan of John Mayer!</p>
+              pop rock to blues to jazz to country music. I am a huge fan of John Mayer! I like to listen to a wide variety of music, currently I am not using Spotify.</p>
             <br></br>
             <p>I love to travel, watch videos and read about armed forces, write poems,
               watch movies and web-series and talk to people! </p>
