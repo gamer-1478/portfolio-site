@@ -100,12 +100,33 @@
 }
 
 .card__item_redirect {
-  color: #000;
+  color: rgb(255, 255, 255);
   font-size: 18px;
   line-height: 24px;
   text-decoration: none;
   align-self: flex-end;
-  font-weight: 300;
+  font-weight: 400;
+  transition: all 1s;
+}
+
+.card__item_redirect::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  margin-top: 30px;
+  height: 2px;
+  background-color: #3A5A84;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.card__item_redirect:hover::before {
+  visibility: visible;
+  width: 40%;
+}
+
+.card__item_redirect:hover {
+  color: #3A5A84;
 }
 
 @media only screen and (min-width: 1200px) {

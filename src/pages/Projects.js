@@ -28,9 +28,9 @@ function Projects() {
                             });
                         }} className='back-to-top' style={{ textAlign: 'center' }}>
                             <div className='font-arrow'>
-                                <i class="fa-solid fa-caret-up"></i>
+                                <img alt='arr' src='https://cdn.discordapp.com/attachments/840934970548813854/953980325376188466/Polygon_1.png' />
                             </div>
-                            <h2>~Keeping it short and simple~<br></br>Back to the top</h2>
+                            <h2 style={{ color: '#3A5A84', fontWeight:'300' }}>~Keeping it short and simple~<br></br>Back to the top</h2>
                         </div>
                     </div>
                 </div>
