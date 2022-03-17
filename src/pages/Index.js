@@ -18,7 +18,8 @@ function Index() {
     var youtube = 'https://www.youtube.com/c/Anirudhchaturvedi?sub_confirmation=1';
     var behance = 'https://www.behance.net/anirudhchaturv';
     var spotify = 'https://open.spotify.com/user/5xwe4nrprj47osrjvrpq1ja5y?si=00e788dbe2f94653&nd=1';
-    var strava = 'https://www.strava.com/athletes/80762754'
+    var strava = 'https://www.strava.com/athletes/80762754';
+
     const openNewTab = (url) => {
         window.open(url, '_blank');
     }
@@ -79,8 +80,8 @@ function Index() {
                                 <h4 style={{ opacity: '80%', position: 'absolute', fontSize: '3rem', fontWeight: '400' }}>namaste.</h4>
                                 <h1 style={{ opacity: '100%', color: '#E4EDF3', fontSize: '7rem' }}>NAMASTE.</h1>
                             </div>
-                            <h2 style={{ marginLeft: '-20px', fontSize: '4rem', fontWeight: '300' }}>Anirudh Chaturvedi</h2>
-                            <div className='social-container'>
+                            <h2 style={{ marginLeft: '-35px', fontSize: '4rem', fontWeight: '300' }}>Anirudh Chaturvedi</h2>
+                            <div style={{ marginLeft: '-35px' }} className='social-container'>
                                 <img style={{ width: '35px' }} alt='LinkedIn Logo' onClick={() => openNewTab(linkedin)} src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/2048px-LinkedIn_icon_circle.svg.png' />
                                 <img style={{ width: '35px' }} alt='Twitter Logo' onClick={() => openNewTab(twitter)} src='https://cdn.discordapp.com/attachments/840934970548813854/953865397797539860/twitter.png' />
                                 <img style={{ width: '35px' }} alt='Youtube Logo' onClick={() => openNewTab(youtube)} src='https://cdn.discordapp.com/attachments/840934970548813854/953865398464430080/movie.png' />
