@@ -2,6 +2,7 @@
 //Author Gamer-1478
 
 import React from 'react'
+import Cards from '../card/Cards'
 import './Projects.css'
 
 function Projects() {
@@ -19,6 +20,7 @@ function Projects() {
                             <span id='line-project' className='line-project'></span>
                             <span className='circle-project'></span>
                         </div>
+                        <Cards />
                     </div>
                 </div>
             </div >

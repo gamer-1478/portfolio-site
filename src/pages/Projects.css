@@ -4,6 +4,11 @@ Author Gamer-1478
 */
 
 .project-root {
+    background-image: url(https://cdn.discordapp.com/attachments/840934970548813854/953951321797578772/Path_9.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100% -60%;
+    background-position: -40px 0px;
     background-color: #DBEEF8;
     align-items: center;
     min-height: 100vh;
