@@ -1,3 +1,6 @@
+//Copyright © 2020 Aayush Garg. All rights reserved.
+//Author Gamer-1478
+
 import React from 'react';
 import './aboutMe.css';
 
@@ -10,6 +13,9 @@ function AboutMe() {
       document.getElementById("aboutme-container").style.opacity = 1;
       document.getElementById('aboutme-img-carasol').style.opacity = 1;
       document.getElementById('line-about').style.width = '20vw';
+    } if (document.body.scrollTop > 1400 || document.documentElement.scrollTop > 1400) {
+      document.getElementById("project-container").style.opacity = 1;
+      document.getElementById('line-project').style.width = '20vw';
     }
   }
 
@@ -46,6 +52,8 @@ function AboutMe() {
             <br></br>
             <p>I love to travel, watch videos and read about armed forces, write poems,
               watch movies and web-series and talk to people! </p>
+            <br></br>
+            <br></br>
           </div>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }} id='aboutme-img-carasol' className='aboutme-img-carasol'>

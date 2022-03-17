@@ -1,3 +1,8 @@
+/*
+Copyright © 2020 Aayush Garg. All rights reserved.
+Author Gamer-1478
+*/
+
 import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Route, Routes } from 'react-router'

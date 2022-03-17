@@ -1,3 +1,6 @@
+//Copyright © 2020 Aayush Garg. All rights reserved.
+//Author Gamer-1478
+
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -5,6 +8,8 @@ import './Index.css'
 import { HashLink, NavHashLink } from 'react-router-hash-link';
 
 import AboutMe from './AboutMe';
+import Footer from './Footer';
+import Projects from './Projects';
 
 function Index() {
     const [click, setClick] = useState(false);
@@ -40,7 +45,7 @@ function Index() {
     return (
         <>
             <div style={{ minHeight: '100vh' }}>
-                
+
                 <div>
                     <nav className="navbar">
                         <div className="navbar-container">
@@ -100,7 +105,12 @@ function Index() {
             <div style={{ display: 'flex', justifyContent: 'center' }}>
                 <p style={{ display: 'flex', left: '50', bottom: '0', marginBottom: '1px' }}>Developed With 💖 By &nbsp;<div style={{ cursor: 'pointer', bottom: '0' }} onClick={() => openNewTab('https://aayushgarg.net')}>Aayush Garg</div></p>
             </div>
+            <hr></hr>
             <AboutMe></AboutMe>
+            <hr></hr>
+            <Projects></Projects>
+            <hr></hr>
+            <Footer />
         </>
     )
 }

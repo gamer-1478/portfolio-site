@@ -3,13 +3,8 @@ Copyright © 2020 Aayush Garg. All rights reserved.
 Author Gamer-1478
 */
 
-.Aboutme-root {
-    background-color: #CABBE9;
-    background-image: url(https://cdn.discordapp.com/attachments/840934970548813854/953865747615064074/Path_6.png);
-    background-repeat: no-repeat;
-    background-size: 220% 60%;
-    background-position: -65vw 55vh;
-    justify-content: center;
+.project-root {
+    background-color: #DBEEF8;
     align-items: center;
     min-height: 100vh;
     position: relative;
@@ -17,45 +12,45 @@ Author Gamer-1478
     display: flex;
 }
 
-.aboutme-container {
+.project-container {
     width: 80vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.about-main-content {
+.project-main-content {
     font-size: 1.3rem;
     width: 45vw;
 }
 
-.aboutme-header {
+.project-header {
     font-size: 4.5rem;
     font-weight: 300;
     padding-top: 2vh;
-    color: #2B1D6D;
+    color: #113466;
     opacity: 90%;
     width: 80vw;
 }
 
-.line-about {
+.line-project {
     content: "";
     display: block;
     height: 1px;
     visibility: visible;
     width: 0;
     transition: all 2s;
-    background-color: #2B1D6D;
+    background-color: #113466;
 }
 
 .line-effect {
     display: flex;
     align-items: center;
-    margin-left: 12rem;
+    margin-left: 21rem;
     margin-top: -20px;
 }
 
-.circle-about {
+.circle-project {
     width: 15px;
     height: 15px;
     background-color: transparent;
@@ -63,31 +58,31 @@ Author Gamer-1478
     border-radius: 50%;
 }
 
-.ohk-root {
+.project-ohk-root {
     display: flex;
     width: 80vw;
 }
 
-.aboutme-container, .aboutme-img-carasol {
+.project-container, .project-img-carasol {
     width: 80vw;
     opacity: 0;
     transition: all 2s;
 }
 
 @media screen and (max-width: 960px) {
-    .about-main-content {
+    .project-main-content {
         width: 80vw;
     }
 
-    .Aboutme-root {
+    .project-root {
         background-image: none;
     }
 
     .line-effect {
-        margin-left: 14rem;
+        margin-left: 21rem;
     }
 
-    .ohk-root {
+    .project-root {
         flex-direction: column;
     }
 }

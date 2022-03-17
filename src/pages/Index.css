@@ -1,3 +1,8 @@
+/*
+Copyright © 2020 Aayush Garg. All rights reserved.
+Author Gamer-1478
+*/
+
 .navbar {
     background: transparent;
     color: #000;
@@ -164,6 +169,7 @@ a.nav-links:hover:before {
     .lappy-img-land {
         display: none;
     }
+
     .herosection-container {
         display: flex;
         justify-content: center;
